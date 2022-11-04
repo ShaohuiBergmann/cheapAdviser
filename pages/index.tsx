@@ -12,7 +12,6 @@ export default function Home() {
                 />
                 <link rel="icon" href="/elephant.png" />
             </Head>
-            <h1 className="text-red-500">Cheap adviser</h1>
             {/* Header */}
             <Header />
             {/* CustomerGroup */}
