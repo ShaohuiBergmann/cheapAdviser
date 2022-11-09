@@ -1,9 +1,22 @@
 import Head from "next/head";
 import Header from "../components/Header";
-
+import About from "../components/About";
+import CustomerGroup from "../components/CustomerGroup";
+import Reasons from "../components/Reasons";
+import Services from "../components/Services";
+import Schools from "../components/Schools";
+import OnlineCourses from "../components/OnlineCourses";
+import Feedbacks from "../components/Feedbacks";
+import Teachers from "../components/Teachers";
+import Contact from "../components/Contact";
+import Prices from "../components/Prices";
+import Photos from "../components/Photos";
+import Career from "../components/Career";
+import Links from "../components/Links";
+import Blogs from "../components/Blogs";
 export default function Home() {
     return (
-        <div className="h-screen bg-[#b5d5cf]">
+        <div className="h-screen bg-[#FEC84D]">
             <Head>
                 <title>Cheap Advisor</title>
                 <meta
@@ -14,19 +27,62 @@ export default function Home() {
             </Head>
             {/* Header */}
             <Header />
+            {/* About */}
+            <section id="about">
+                <About />
+            </section>
             {/* CustomerGroup */}
+            <section id="customers">
+                <CustomerGroup />
+            </section>
             {/* Reasons */}
+            <section id="reasons">
+                <Reasons />
+            </section>
             {/* Services */}
+            <section id="services">
+                <Services />
+            </section>
             {/* Schools */}
+            <section id="schools">
+                <Schools />
+            </section>
             {/* OnlineCourses */}
+            <section id="onlineCourses">
+                <OnlineCourses />
+            </section>
             {/* Feedbacks */}
+            <section id="feedbacks">
+                <Feedbacks />
+            </section>
             {/* Teachers */}
+            <section id="teachers">
+                <Teachers />
+            </section>
             {/* Contact */}
+            <section id="contact">
+                <Contact />
+            </section>
             {/* Prices */}
+            <section id="prices">
+                <Prices />
+            </section>
             {/* Photos */}
+            <section id="photos">
+                <Photos />
+            </section>
             {/* Career */}
+            <section id="career">
+                <Career />
+            </section>
             {/* Blogs */}
+            <section id="blogs">
+                <Blogs />
+            </section>
             {/* Links */}
+            <section id="links">
+                <Links />
+            </section>
         </div>
     );
 }

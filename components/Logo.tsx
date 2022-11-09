@@ -11,6 +11,7 @@ function Logo({}: Props) {
                 layout="fill"
                 src="/logo.png"
                 alt="Loading"
+                
             />
         </span>
     );
